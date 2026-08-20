@@ -1,0 +1,8 @@
+{
+  "name": "only-samosas-storefront-v3-preview",
+  "version": "4.0.0",
+  "private": true,
+  "scripts": {
+    "check": "node scripts/check.mjs"
+  }
+}
