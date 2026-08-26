@@ -32,3 +32,11 @@ body{letter-spacing:.002em}
 .product-card .card-body h3{font-family:Georgia,serif;font-weight:600}
 .product-card .card-media{background:#f5eee3}
 .section-head h2{font-family:Georgia,serif;font-weight:600;letter-spacing:-.035em}
+
+.dietary-banner{background:#f3eadc;border-top:1px solid #d8c39a;border-bottom:1px solid #d8c39a;padding:22px 0;text-align:center}
+.dietary-banner .wrap{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap}
+.dietary-banner strong{font-family:Georgia,serif;font-size:22px;color:#17130f}
+.dietary-banner p{width:100%;margin:0;color:#51483f}
+.diet-pill{font-size:12px;font-weight:800;letter-spacing:.08em;border:1px solid #667b3b;border-radius:999px;padding:7px 12px;color:#52652f;background:#fff}
+.diet-pill.vegan{background:#536b34;color:#fff}
+.shop-diet-note{max-width:1180px;margin:18px auto;padding:14px 20px;border:1px solid #d8c39a;background:#f7f1e8;text-align:center;border-radius:8px}
