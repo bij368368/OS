@@ -1,23 +1,23 @@
-# Only Samosas! V4 — Live Brand Preview
+# Only Samosas — Global Veg Range Website Package
 
-Public brand/catalogue build for onlysamosas.co.uk.
+Updated 26 August 2026.
 
-## Key changes
-- Wild Boar removed.
-- Six-flavour range retained, including spring LAMB.
-- Sweetcorn flavour updated to Sweetcorn, Red Chilli, Onion, Cheese & Lime.
-- All product-pack images use a consistent square display frame with `object-fit: contain`, fixing the oversized Lamb/Sweetcorn appearance.
-- Demo reviews, prototype/internal compliance notes and developer-facing copy removed from customer pages.
-- Payments, basket and checkout remain disabled.
-- Cookie preference persists correctly in localStorage.
-- Canonical/OG URLs point to https://www.onlysamosas.co.uk.
+## Range
+- Paneer Makhani (vegetarian)
+- Achari Mixed Veg (vegan)
+- Mexican Street Corn (vegetarian)
+- Chipotle Black Bean (vegan)
+- Harissa Cauliflower (vegan)
+- Falafel & Zhoug (vegan)
+- Truffle Mac & Cheese (vegetarian)
 
-## Launch-list note
-The current static build saves a submitted launch-interest email only on the visitor's device as a graceful fallback. For real business-side email capture, connect the form to a mailing provider (e.g. Mailchimp/Brevo/Klaviyo) or a Vercel server-side datastore before promoting the signup widely.
+## Changes
+- Brand spelling standardised to **Only Samosas** / **SAMOSAS** site-wide.
+- Domain references standardised to `onlysamosas.co.uk`.
+- New eight-pack global vegetarian/vegan range artwork added as `assets/range-global-veg.png`.
+- Eight consistent 900×900 website preview assets extracted from the range artwork.
+- Catalogue, shop filters, homepage copy, SEO text, sitemap and product pages updated to the new range.
+- Approved Chicken master pack retained as `assets/master-pack-reference.png` for future design reference.
+- Product ingredient/allergen/cooking information remains clearly marked as prototype pending final recipe and food-safety validation.
 
-
-## V4.1 update
-- Added Butter Chicken as the seventh flavour with a matching pack image.
-- Added the Veg/Chicken/Lamb mascot artwork to the homepage.
-- Updated flavour counts and SEO copy from six to seven.
-- Kept payments disabled and product packs contained to consistent frames.
+Deploy as a static Vercel project using the existing `vercel.json`.
